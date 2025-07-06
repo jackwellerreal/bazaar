@@ -1,0 +1,87 @@
+{
+    "categories": {
+        "farming": {
+            "id": "farming",
+            "name": "Farming",
+            "icon": "/assets/icons/farming.png",
+            "colour": "e",
+            "sections": {
+                "carrot": {
+                    "id": "carrot",
+                    "name": "Carrot",
+                    "icon": "/assets/icons/carrot.png",
+                    "products": [
+                        {
+                            "id": "carrot",
+                            "name": "Carrot",
+                            "description": "Collection Item",
+                            "descriptionColour": "8",
+                            "icon": "/assets/items/Carrot.png",
+                            "enchanted": false,
+                            "rarity": "COMMON",
+                            "bazaarId": "CARROT_ITEM"
+                        },
+                        {
+                            "id": "enchanted_carrot",
+                            "name": "Enchanted Carrot",
+                            "description": "Collection Item",
+                            "descriptionColour": "8",
+                            "icon": "/assets/items/Carrot.png",
+                            "enchanted": true,
+                            "rarity": "UNCOMMON",
+                            "bazaarId": "ENCHANTED_CARROT"
+                        },
+                        {
+                            "id": "enchanted_carrot_stick",
+                            "name": "Enchanted Carrot on a Stick",
+                            "description": "Increases the speed of the creature you are riding when holding.",
+                            "descriptionColour": "7",
+                            "icon": "/assets/items/Carrot_On_A_Stick.png",
+                            "enchanted": true,
+                            "rarity": "UNCOMMON",
+                            "bazaarId": "ENCHANTED_CARROT_STICK"
+                        },
+                        {
+                            "id": "enchanted_golden_carrot",
+                            "name": "Enchanted Golden Carrot",
+                            "description": "Collection Item",
+                            "descriptionColour": "8",
+                            "icon": "/assets/items/Golden_Carrot.png",
+                            "enchanted": true,
+                            "rarity": "UNCOMMON",
+                            "bazaarId": "ENCHANTED_GOLDEN_CARROT"
+                        }
+                    ]
+                }
+            }
+        },
+        "mining": {
+            "id": "mining",
+            "name": "Mining",
+            "icon": "/assets/icons/mining.png",
+            "colour": "b",
+            "sections": {}
+        },
+        "combat": {
+            "id": "combat",
+            "name": "Combat",
+            "icon": "/assets/icons/combat.png",
+            "colour": "c",
+            "sections": {}
+        },
+        "foraging": {
+            "id": "foraging",
+            "name": "Woods & Fishes",
+            "icon": "/assets/icons/foraging.png",
+            "colour": "6",
+            "sections": {}
+        },
+        "oddities": {
+            "id": "oddities",
+            "name": "Oddities",
+            "icon": "/assets/icons/oddities.png",
+            "colour": "d",
+            "sections": {}
+        }
+    }
+}

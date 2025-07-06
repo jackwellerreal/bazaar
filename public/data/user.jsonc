@@ -1,0 +1,31 @@
+{
+    "uid": "string", // Firebase Auth UID
+    "username": "string", // e.g., "whatqm"
+    "created": "2023-10-01T12:00:00Z",
+    "coins": 100, // current fake coins balance
+
+    "stats": {
+        "coins_spent": 10, // total coins spent buying items
+        "coins_earned": 15, // total coins earned from selling items
+    },
+    "inventory": [
+        {
+            "item": "potato",
+            "quantity": 5,
+            "price": 2, // optional, for P&L tracking
+            "created": "2023-10-01T12:00:00Z",
+        },
+    ],
+    "orders": [
+        {
+            "id": "order_001", // Firestore doc id or generated UUID
+            "type": "buy", // "buy" | "sell"
+            "item": "potato",
+            "quantity": 5,
+            "price": 2, // per unit
+            "status": "completed", // "pending" | "completed" | "cancelled"
+            "created": "2023-10-01T12:00:00Z",
+            "fulfilled": "2023-10-01T12:10:00Z", // optional, when filled
+        },
+    ],
+}

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Normal";
+    src: url("/assets/Normal.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Title";
+    src: url("/assets/Title.otf") format("opentype");
+}
+
+:root {
+    --mc-dark-red: #aa0000;
+    --mc-red: #ff5555;
+    --mc-gold: #ffaa00;
+    --mc-yellow: #ffff55;
+    --mc-dark-green: #55aa00;
+    --mc-green: #55ff55;
+    --mc-aqua: #55ffff;
+    --mc-dark-aqua: #00aaaa;
+    --mc-dark-blue: #0000aa;
+    --mc-blue: #5555ff;
+    --mc-light-purple: #ff55ff;
+    --mc-dark-purple: #aa00aa;
+    --mc-white: #ffffff;
+    --mc-gray: #aaaaaa;
+    --mc-dark-gray: #555555;
+    --mc-black: #000000;
+
+    --furf-yellow: #fbcc6c;
+    --furf-gold: #faa648;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 20px;
+    font-family: "Normal", sans-serif;
+    color: var(--mc-white);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+    background-color: var(--mc-black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Title", sans-serif;
+    color: var(--mc-white);
+}

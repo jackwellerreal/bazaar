@@ -15,12 +15,12 @@ import { PanoramaBackground } from "../../components/panorama";
 import "./styles.css";
 
 const app = initializeApp({
-    apiKey: "AIzaSyB7APiLe5PvHmzOrnmAFBRVuUtq7cnUXZY",
-    authDomain: "economy-a063a.firebaseapp.com",
-    projectId: "economy-a063a",
-    storageBucket: "economy-a063a.firebasestorage.app",
-    messagingSenderId: "852192366276",
-    appId: "1:852192366276:web:e4d468cbc091628a894391",
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID,
 });
 
 const db = getFirestore(app);

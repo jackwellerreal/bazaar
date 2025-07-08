@@ -263,6 +263,30 @@
     grid-row: 2 / 3;
 }
 
+.bazaar-orders {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column: 2 / 9;
+    grid-row: 2 / 4;
+}
+
+.bazaar-orders-type {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.bazaar-orders-type:first-of-type {
+    grid-column: 1 / 9;
+    grid-row: 1 / 2;
+}
+
+.bazaar-orders-type:last-of-type {
+    grid-column: 1 / 9;
+    grid-row: 2 / 3;
+}
+
 @media (max-width: 1450px) {
     .bazaar {
         width: 40%;

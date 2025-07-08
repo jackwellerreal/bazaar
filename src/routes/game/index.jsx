@@ -350,6 +350,7 @@ export function GamePage() {
                                 <span style={{ color: "var(--mc-aqua)" }}>
                                     {account.orders.length.toFormattedString({
                                         decimals: 0,
+                                        trailingZeroes: true,
                                     })}
                                     /14
                                 </span>
@@ -688,7 +689,10 @@ export function GamePage() {
 
                             {/* ORDERS PAGE */}
                             {page === "orders" && (
-                                <div className="bazaar-orders"></div>
+                                <div className="bazaar-orders">
+                                    <div className="bazaar-orders-type"></div>
+                                    <div className="bazaar-orders-type"></div>
+                                </div>
                             )}
 
                             {/* CONTROLS */}
